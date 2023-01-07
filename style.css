@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* banner section */
+.banner {
+    background-image: url(images/banner/banner1.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.banner .container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 100%;
+}
+
+.banner .half_width {
+    width: 525px;
+    text-align: right;
+}
+
+.banner .half_width h1 {
+    font-size: 65px;
+    color: #151414;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+.banner .half_width p {
+    width: 494px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-left: auto;
+    margin-bottom: 35px;
+}
+
+.banner .half_width button {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: right;
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #9b5de5;
+    border: none;
+    text-align: center;
+}
+
+
+/* failure section */
+.failure {
+    padding: 100px 0;
+}
+
+.failure .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    align-items: center;
+}
+
+.failure_img,
+.failure_content {
+    flex: 1;
+}
+
+.failure_content h2 {
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 40px;
+}
+
+.failure_content p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 20px;
+}
+
+.failure p img {
+    width: 20px;
+    margin-bottom: -5px;
+    margin-right: 10px;
+}
+
+/* My plan section */
+.plans {
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.title {
+    font-size: 40px;
+    color: #151414;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.plans .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plans .container .box {
+    flex: 1;
+    text-align: center;
+}
+
+.plans .container .box h3 {
+    font-size: 30px;
+    color: #151414;
+    margin: 15px 0 10px;
+}
+
+.plans .container .box p {
+    font-size: 25px;
+    color: #737272;
+}
+
+/* Call to action section */
+.call .container {
+    padding: 60px;
+    background: linear-gradient(to right, #9b5de5, rgba(255, 255, 255, 0)), url(./images/watch.png);
+    margin-bottom: 100px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.call .container h2 {
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.call .container button {
+    font-size: 20px;
+    color: #9b5de5;
+    font-weight: 600;
+    text-align: right;
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+}
+
+/* blog section  */
+.blog_content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+
+.blog_card {
+    flex: 1;
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.021);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.blog_card img {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.blog_card_info {
+    padding: 20px;
+}
+
+.blog_card_info h3 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.blog_card_info p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 20px;
+}
+
+/* footer section */
+.footer {
+    padding: 120px 0;
+    background-color: #151414;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .container .footer_content {
+    flex-basis: 65%;
+}
+
+.footer_content h1 {
+    font-size: 45px;
+    color: #f8f8f8;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.footer_content p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    width: 485px;
+}
+
+.footer_content img {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.footer .container .footer_form {
+    flex-basis: 35%;
+}
+
+.footer_form h3 {
+    font-size: 25px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.footer_form input {
+    width: 100%;
+    display: block;
+    padding: 0 15px;
+    height: 60px;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 26px;
+    font-weight: bold;
+}
+
+.footer_form button {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: right;
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    background-color: #9b5de5;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
